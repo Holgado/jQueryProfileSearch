@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Buscador de perfil no GitHub</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--Menu Bootstrap-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Buscador de perfil no GitHub</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!--Area de pesquisa-->
+        <div class="container">
+            <div class="searchContainer">
+                <h1>Procure usuarios do GitHub</h1>
+                <p class="lead">Entre com um username para buscar um perfil de usuario e repositorios</p>
+                <input type="text" id="usuarioB" class="form-control" placeholder="Nome de usario do GitHub . . .">
+
+            </div>
+            <div id="perfil"></div>
+        </div>
+
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
